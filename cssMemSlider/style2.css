@@ -178,3 +178,25 @@ html, body {
         top: 58%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .logo {
+        max-width: 940px;
+    }
+    .carousel__bullets {
+        text-align: center;
+    }
+    .carousel__caption {
+        margin: -200px auto 0;
+    }
+    .carousel__caption p {
+        text-align: center;
+    }
+    .img__container img {
+        min-height: auto;
+        width: 100%;
+    }
+    .carousel__bullets {
+        top: 52%;
+    }
+}
