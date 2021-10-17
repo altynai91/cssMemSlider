@@ -38,14 +38,10 @@ h1 {
   font-size: 2rem;
   line-height: 100px;
 }
-/* BODY STYLES */
 html, body {
-	background: #12171b url(http://104.131.105.180/storage/app/media/patterns/subtle-carbon.png) repeat center top;
 	max-width: 100%;
 	overflow-x: hidden;
 }
-
-/* IMAGE CAROUSEL */
 .carousel__caption {
 	width: 1440px;
 	max-width: 100%;
@@ -63,7 +59,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	transform: translateZ(0px); /* stops flickering */
+	transform: translateZ(0px); 
 }
 .carousel__buffer {
 	display: none;
@@ -100,17 +96,13 @@ html, body {
 .img__container img {
     min-height: 100%;
 }
-
 .carousel__input:checked + .carousel__slide {
-	/* position: static; */
 	opacity: 1;
 }
-
 .bullets__container {
     width: 1440px;
     margin: auto;
 }
-
 .carousel__bullets {
     max-width: 1440px;
 	list-style: none;
@@ -139,7 +131,6 @@ html, body {
 .carousel__bullets--bullet:hover {
 	background: #92dce5;
 }
-
 @media screen and (max-width: 1024px) {
     .logo {
         max-width: 940px;
@@ -178,7 +169,6 @@ html, body {
         top: 58%;
     }
 }
-
 @media screen and (max-width: 420px) {
     .logo {
         max-width: 940px;
